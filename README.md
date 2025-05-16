@@ -13,7 +13,6 @@ pnpm (recommended for package management)
 1. Clone the Repository
 
 git clone https://github.com/Vishu47444/Task-Flow
-cd mern-task-manager
 
 2. Install Dependencies
 Install both frontend and backend dependencies using pnpm:
