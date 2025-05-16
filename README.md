@@ -11,26 +11,20 @@ MongoDB (local or MongoDB Atlas)
 pnpm (recommended for package management)
 
 1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/mern-task-manager.git
+
+git clone https://github.com/Vishu47444/Task-Flow
 cd mern-task-manager
+
 2. Install Dependencies
 Install both frontend and backend dependencies using pnpm:
 
-bash
-Copy
-Edit
 pnpm install-all
 This command installs dependencies for both the frontend and backend.
 
 3. Configure Environment Variables
 Create a .env file in the backend directory with the following content:
 
-env
-Copy
-Edit
+
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/tasks  # Update with your MongoDB URI
 JWT_SECRET=your_jwt_secret                 # Replace with your secret key
@@ -39,18 +33,13 @@ Ensure to replace MONGO_URI with your actual MongoDB connection string and JWT_S
 4. Start MongoDB
 If you're using a local MongoDB instance, start it by running:
 
-bash
-Copy
-Edit
 mongod
 Alternatively, if you're using MongoDB Atlas, ensure your cluster is running and accessible.
 
 5. Run the Application
 To start both the frontend and backend servers concurrently, run:
 
-bash
-Copy
-Edit
+
 pnpm run dev
 This will start the backend on port 5000 and the frontend on port 3000. The app will automatically open in your default browser at http://localhost:3000.
 
