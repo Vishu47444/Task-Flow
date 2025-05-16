@@ -66,6 +66,7 @@ Steps to run backend
 If configured correctly, you should see a message indicating that the server is running successfully and Database Connected.
 
 
+
  
 
 Frontend Side Setup
@@ -86,6 +87,7 @@ Steps to run fontend
 
 
 
+
 🧠 Approach & Architecture
 Backend (Server)
 
@@ -98,6 +100,8 @@ JWT Authentication: Secures API endpoints and manages user sessions.
 CORS: Configured to allow cross-origin requests from the frontend.
 
 
+
+
 Frontend (Client)
 React.js: Builds the user interface with component-based architecture.
 
@@ -106,6 +110,7 @@ React Router: Manages navigation between different views.
 Axios: Facilitates HTTP requests to the backend API.
 
 lucide-react : Provides pre-designed components for a responsive UI.
+
 
 
 
@@ -130,13 +135,19 @@ Responsive design for mobile and desktop views
 
 
 
+
 ⚠️ Assumptions & Trade-offs
+
 Assumptions
+
+
 Users have basic knowledge of using web applications.
 
 The application is intended for personal or small team use.
 
 MongoDB is used for data storage; no SQL database is involved.
+
+
 
 Trade-offs
 No Role-Based Access Control (RBAC): The app assumes all users have the same level of access, which may not be suitable for larger teams requiring different permission levels.
