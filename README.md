@@ -82,6 +82,10 @@ Steps to run fontend
 
 
 
+
+
+
+
 🧠 Approach & Architecture
 Backend (Server)
 
@@ -106,6 +110,10 @@ lucide-react : Provides pre-designed components for a responsive UI.
 
 
 
+
+
+
+
 Features
 User authentication (register, login, logout)
 
@@ -114,6 +122,10 @@ CRUD operations for tasks
 Task categorization (e.g., To-Do, In Progress, Completed)
 
 Responsive design for mobile and desktop views
+
+
+
+
 
 
 
