@@ -104,6 +104,8 @@ CORS: Configured to allow cross-origin requests from the frontend.
 
 
 Frontend (Client)
+
+
 React.js: Builds the user interface with component-based architecture.
 
 React Router: Manages navigation between different views.
@@ -134,6 +136,8 @@ MongoDB is used for data storage; no SQL database is involved.
 
 
 Trade-offs
+
+
 No Role-Based Access Control (RBAC): The app assumes all users have the same level of access, which may not be suitable for larger teams requiring different permission levels.
 
 No Real-Time Updates: The application does not implement real-time features like WebSockets, so users need to refresh the page to see updates made by others.
