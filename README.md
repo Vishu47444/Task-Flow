@@ -1,49 +1,81 @@
 A full-stack task management application built using MongoDB, Express.js, React, and Node.js (MERN). This app allows users to create, read, update, and delete tasks, providing a seamless experience for managing daily activities.
 
 🛠️ Project Setup
-Prerequisites
-Ensure you have the following installed:
 
-Node.js (v14 or higher)
+SETUP INSTRUCTIONS
 
-MongoDB (local or MongoDB Atlas)
+Backend Setup
 
-pnpm (recommended for package management)
+1. Environment variables
+First, create the environment variables file .env in the server folder. The .env file contains the following environment variables:
 
-1. Clone the Repository
+MONGODB_URI = your MongoDB URL
+JWT_SECRET = any secret key - must be secured
+PORT = 8800 or any port number 
+NODE_ENV = development
+ 
 
-git clone https://github.com/Vishu47444/Task-Flow
+Set Up MongoDB:
 
-2. Install Dependencies
-Install both frontend and backend dependencies using pnpm:
+Setting up MongoDB involves a few steps:
 
-pnpm install-all
-This command installs dependencies for both the frontend and backend.
+Visit MongoDB Atlas Website
 
-3. Configure Environment Variables
-Create a .env file in the backend directory with the following content:
+Go to the MongoDB Atlas website: https://www.mongodb.com/cloud/atlas.
+Create an Account
+
+Log in to your MongoDB Atlas account.
+
+Create a New Cluster
+
+Choose a Cloud Provider and Region
+
+Configure Cluster Settings
+
+Create Cluster
+
+Wait for Cluster to Deploy
+
+Create Database User
+
+Set Up IP Whitelist
+
+Connect to Cluster
+
+Configure Your Application
+
+Test the Connection
+
+Create a new database and configure the .env file with the MongoDB connection URL.
+
+Steps to run frontend
+
+Open the project in any editor of choice.
+
+Navigate into the server directory cd backend.
+
+Run npm i or npm install to install the packages.
+
+Run npm start to start the server.
+
+If configured correctly, you should see a message indicating that the server is running successfully and Database Connected.
+
+ 
+
+Frontend Side Setup
 
 
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/tasks  # Update with your MongoDB URI
-JWT_SECRET=your_jwt_secret                 # Replace with your secret key
-Ensure to replace MONGO_URI with your actual MongoDB connection string and JWT_SECRET with a strong secret key.
+Steps to run fontend
 
-4. Start MongoDB
-If you're using a local MongoDB instance, start it by running:
+Navigate into the client directory cd frontend.
 
-mongod
-Alternatively, if you're using MongoDB Atlas, ensure your cluster is running and accessible.
+Run npm i or npm install to install the packages.
 
-5. Run the Application
-To start both the frontend and backend servers concurrently, run:
-
-
-pnpm run dev
-This will start the backend on port 5000 and the frontend on port 3000. The app will automatically open in your default browser at http://localhost:3000.
+Run npm start to run the app on your local browser.
 
 🧠 Approach & Architecture
 Backend (Server)
+
 Express.js: Handles HTTP requests and routes.
 
 MongoDB & Mongoose: Manages data storage and schema definitions.
