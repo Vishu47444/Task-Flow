@@ -89,6 +89,7 @@ Steps to run fontend
 
 
 🧠 Approach & Architecture
+
 Backend (Server)
 
 Express.js: Handles HTTP requests and routes.
@@ -110,23 +111,6 @@ React Router: Manages navigation between different views.
 Axios: Facilitates HTTP requests to the backend API.
 
 lucide-react : Provides pre-designed components for a responsive UI.
-
-
-
-
-
-
-
-
-
-Features
-User authentication (register, login, logout)
-
-CRUD operations for tasks
-
-Task categorization (e.g., To-Do, In Progress, Completed)
-
-Responsive design for mobile and desktop views
 
 
 
