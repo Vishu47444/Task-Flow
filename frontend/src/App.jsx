@@ -3,7 +3,7 @@ import { Routes, Route, Navigate, useNavigate, Outlet } from 'react-router-dom';
 import Layout from './components/Layout';
 import Dashboard from './pages/Dashboard';
 import Pending from './pages/Pending';
-import Complete from './pages/Complete';
+import Complete from './pages/complete';
 import Profile from './components/Profile';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
